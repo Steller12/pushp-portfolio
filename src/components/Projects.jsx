@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { projects } from "../data/projects";
+import { projects } from "../data/Projects";
 import { useNavigate } from "react-router-dom";
 
 function Projects({ setWipe }) {
