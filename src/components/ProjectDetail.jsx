@@ -87,10 +87,14 @@ function ProjectDetail() {
 
       <div className="flex gap-6 text-sm">
         {project.github && (
-          <a className="text-white hover:underline">GitHub →</a>
+          <a href={project.github} className="text-white hover:underline">
+            GitHub →
+          </a>
         )}
         {project.demo && (
-          <a className="text-gray-400 hover:text-white">Live Demo →</a>
+          <a href={project.demo} className="text-gray-400 hover:text-white">
+            Live Demo →
+          </a>
         )}
       </div>
     </section>
